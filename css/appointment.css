@@ -1,0 +1,69 @@
+.appointment{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .appointment{
+    display: block;
+  }
+
+  .book{
+    margin-top: 30px;
+  }
+
+  .client-pane h2{
+    font-size: 2rem !important;
+  }
+}
+
+.appointment > *{
+  border: 1px solid red;
+}
+
+.clients{
+  background-color: #59B3AD;
+  color: white;
+  text-align: justify;
+  font-style: italic;
+  text-align: center;
+}
+
+.clients h2{
+  font-style: normal;
+}
+
+.book img{
+  object-fit: cover;
+  width: 100%;
+}
+
+.location-title h2{
+  color: #609BC9;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.location-title {
+  margin-top: 30px;
+}
+
+.clients q::before{
+    content: open-quote;
+    font-size: 2em; 
+    vertical-align: -0.2em;
+}
+
+.clients q::after {
+  content: close-quote;
+  font-size: 2em; 
+  vertical-align: -0.2em;
+}
+
+.client-pane h2{
+  text-align: center;
+  color: #609BC9;
+  text-align: center;
+  font-size: 3rem;
+}

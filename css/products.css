@@ -1,0 +1,40 @@
+.products-container{
+  background-color: grey;
+  margin-top: 20px;
+  /* display: flex; */
+  max-height: 30vh;
+  /* gap: 20px; */
+}
+
+@media (max-width: 800px) {
+  .products-container{
+    display: block;
+  }
+
+  .text h2{
+    font-size: 2rem !important;
+  }
+}
+
+
+.text p{
+  text-align: center;
+  /* margin: 20% 0 0 0; */
+}
+
+
+
+.pic{
+  flex: 2;
+  background-color: green;
+  max-height: 30vh;
+}
+
+.text h2{
+  text-align: center;
+  color: #609BC9;
+  text-align: center;
+  font-size: 3rem;
+}
+
+

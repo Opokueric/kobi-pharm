@@ -1,0 +1,40 @@
+.foot{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.block{
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px grey;
+}
+
+.foot > *{
+  flex: 1;
+}
+
+
+@media (max-width: 800px) {
+  .foot{
+    display: block;
+    height: 100%;
+  }
+}
+
+.block{
+  background-color: #78d8d3;
+}
+
+.sub1 p, .sub2 p, .sub3 p{
+  font-size: 1.2rem;
+  margin: 20px;
+}
+
+.sub1, .sub2, .sub3{
+  margin: 40px;
+}

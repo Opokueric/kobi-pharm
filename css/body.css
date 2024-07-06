@@ -1,0 +1,80 @@
+
+.services-left{
+  border-radius: 12px;
+  box-shadow: 2px 2px 10px grey;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 10px 0 10px;
+}
+.services-left *{
+  padding: 7px;
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.services-left i{
+  color: #55AFA9;
+  font-size: 1.3rem;
+  margin-right: 10px;
+}
+
+
+@media (max-width: 800px) {
+  .services-container{
+    display: block;
+  }
+  .services-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: none;
+  }
+}
+
+.services-right {
+  background-image: url("/images/shop.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.services-right img{
+  width: 100%;
+}
+
+.services-right p{
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+  position: relative;
+  /* background-color: #00800080; */
+  top: 50%; /* Adjust vertical position */
+    left: 50%; /* Adjust horizontal position */
+}
+
+
+
+@media (max-width: 800px) {
+  .services-right p{
+    font-size: 2rem;
+  }
+  .services-left *{
+    padding: 5px;
+    margin-left: 5px;
+  }
+  .services-right{
+    height: 60vh;
+    margin-top: 10px;
+  }
+
+  .service h2, .location-title h2{
+    font-size: 2rem !important;
+  }
+}
+
+.service h2{
+  text-align: center;
+  color: #609BC9;
+  text-align: center;
+  font-size: 3rem;
+}
